@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Chart() {
+export default function OffCanvas() {
   return (
     <div>
       <></>

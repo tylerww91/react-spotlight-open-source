@@ -1,8 +1,7 @@
 import React from 'react';
 import { Table, Column, HeaderCell, Cell } from 'rsuite-table';
 import songs from '../../songData.js';
-import './SongTable.css';
-import 'rsuite-table/dist/css/rsuite-table.css';
+import 'rsuite-table/dist/css/rsuite-table.min.css';
 
 // const customColumn = React.forwardRef((props, ref) => {
 //   return <Column ref={ref} sortable align="center" flexGrow={1} fullText {...props} />;
