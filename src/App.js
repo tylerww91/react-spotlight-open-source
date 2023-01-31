@@ -2,6 +2,7 @@ import { Link, Route, Switch } from 'react-router-dom';
 import SongTable from './components/Table/SongTable.js';
 import './App.css';
 import NewChart from './components/Chart/NewChart.js';
+import Modal from './components/OffCanvas/Modal.js';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <NewChart />
         </Route>
       </Switch>
+      <Modal />
     </div>
   );
 }
