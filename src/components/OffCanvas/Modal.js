@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Modal() {
   const [show, setShow] = useState(false);
-
+  // when modal is open or closed
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
